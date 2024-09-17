@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-image {
+    flex: 1 1 100%;
+    background-color: #ddd;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.side-images {
+    display: flex;
+    gap: 20px;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+.side-images div {
+    flex: 1;
+    background-color: #ddd;
+    height: 100px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+.product-grid div {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.filters {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+.explore {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer div {
+    flex: 1;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .main {
+            padding: 2rem;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h1 {
+            margin: 1rem 0;
+        }
+        .product .price {
+            color: green;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .recommended {
+            margin-top: 2rem;
+        }
+        .recommended h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .recommended .products {
+            display: flex;
+            justify-content: space-around;
+        }
+        .recommended .products .product {
+            width: 20%;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">LOGO</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="product">
+            <img src="produto.jpg" alt="Produto">
+            <h1>PRODUTO NOME</h1>
+            <div class="rating">★★★★★</div>
+            <p>Descrição do produto. Este é um produto incrível que você vai adorar.</p>
+            <div class="price">R$ 100</div>
+            <button>Comprar</button>
+        </div>
+        <div class="recommended">
+            <h2>Recomendados para Você</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="produto1.jpg" alt="Produto 1">
+                    <p>Nome do Produto 1</p>
+                </div>
+                <div class="product">
+                    <img src="produto2.jpg" alt="Produto 2">
+                    <p>Nome do Produto 2</p>
+                </div>
+                <div class="product">
+                    <img src="produto3.jpg" alt="Produto 3">
+                    <p>Nome do Produto 3</p>
+                </div>
+                <div class="product">
+                    <img src="produto4.jpg" alt="Produto 4">
+                    <p>Nome do Produto 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contato: contato@empresa.com | Redes Sociais: Facebook, Twitter, Instagram</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            width: 600px;
+        }
+        .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid #ccc;
+        }
+        .left img {
+            max-width: 100%;
+            height: auto;
+        }
+        .right {
+            flex: 2;
+            padding: 20px;
+        }
+        .right h2 {
+            margin-bottom: 20px;
+        }
+        .right input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .right button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .right button:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="placeholder-image.jpg" alt="Placeholder Image">
+        </div>
+        <div class="right">
+            <h2>Cadastro</h2>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Senha">
+            <button>Cadastrar-se</button>
+            <div class="contact-info">
+                <p>Contatos</p>
+                <p>Telefone: 99999999</p>
+                <p>E-mail: info@lujinhomes.com</p>
+                <p><a href="#">Sobre a Conta</a></p>
+                <p><a href="#">Esqueci senha</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
